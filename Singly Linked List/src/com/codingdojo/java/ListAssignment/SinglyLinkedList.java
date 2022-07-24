@@ -23,7 +23,7 @@ public class SinglyLinkedList{
            
         }
     }
-    
+ //----------------------------------------------   
     public void remove(){
         if(head.next == null){
             this.head = null;
@@ -34,6 +34,7 @@ public class SinglyLinkedList{
         }
         runner.next = null;
     }
+ //-----------------------------------------------
     public void printValues(){
         Node runner = this.head;
         if(head == null){
